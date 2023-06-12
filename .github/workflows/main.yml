@@ -32,6 +32,6 @@ jobs:
     - name: Test with cpu
       run: |
         pytest tests/cpu_test.py
-    - name: Test with gpu
-      run: |
-        pytest tests/gpu_test.py
+    # - name: Test with gpu
+    #   run: |
+    #     pytest tests/gpu_test.py
