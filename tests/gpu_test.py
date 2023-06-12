@@ -1,5 +1,6 @@
 import torch
 
+
 def test_gpu():
     assert torch.cuda.is_available()
 
@@ -7,4 +8,3 @@ def test_gpu():
     y = torch.randn(2, 3).cuda()
     z = x + y
     assert z.shape == (2, 3)
-
