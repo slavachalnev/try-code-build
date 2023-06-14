@@ -35,3 +35,4 @@ jobs:
     # - name: Test with gpu
     #   run: |
     #     pytest tests/gpu_test.py
+
